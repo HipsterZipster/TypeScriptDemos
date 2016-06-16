@@ -5,7 +5,8 @@
     "tsc": "tsc",
     "tsc:w": "tsc --watch",
     "superstatic": "superstatic",
-    "start": "concurrently \"npm run tsc:w\" \"superstatic\" "
+    "start": "concurrently \"superstatic\" ",
+    "starttsc": "concurrently \"npm run tsc:w\" \"superstatic\" "
   },
   "dependencies": {
     "systemjs": "0.19.25"
